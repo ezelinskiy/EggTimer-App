@@ -13,6 +13,7 @@
 		864666892B59219F0079C474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864666872B59219F0079C474 /* Main.storyboard */; };
 		8646668B2B5921A20079C474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8646668A2B5921A20079C474 /* Assets.xcassets */; };
 		8646668E2B5921A20079C474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8646668C2B5921A20079C474 /* LaunchScreen.storyboard */; };
+		864666972B59239B0079C474 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 864666962B59239B0079C474 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8646668A2B5921A20079C474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8646668D2B5921A20079C474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8646668F2B5921A20079C474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864666962B59239B0079C474 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				8646668A2B5921A20079C474 /* Assets.xcassets */,
 				8646668C2B5921A20079C474 /* LaunchScreen.storyboard */,
 				8646668F2B5921A20079C474 /* Info.plist */,
+				864666952B5923920079C474 /* Sound */,
 			);
 			path = "EggTimer App";
+			sourceTree = "<group>";
+		};
+		864666952B5923920079C474 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				864666962B59239B0079C474 /* alarm_sound.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				8646668E2B5921A20079C474 /* LaunchScreen.storyboard in Resources */,
 				8646668B2B5921A20079C474 /* Assets.xcassets in Resources */,
+				864666972B59239B0079C474 /* alarm_sound.mp3 in Resources */,
 				864666892B59219F0079C474 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
